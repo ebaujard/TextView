@@ -293,7 +293,7 @@ public struct TextView: View {
 						.onTapGesture {
 							self.isEditing = true
 						}
-						.accessibility(label: Text("placeholder"))
+						.accessibility(label: Text(placeholder))
 				}
 			}
 		}
